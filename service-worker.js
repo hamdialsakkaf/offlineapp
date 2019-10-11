@@ -9,7 +9,7 @@ this.addEventListener('install', event => {
     event.waitUntil(
     caches.open(currentCache.offline).then(function(cache) {
         return cache.addAll([
-            './img/off.png',
+            './images/off.png',
             offlineUrl
         ]);
     })
